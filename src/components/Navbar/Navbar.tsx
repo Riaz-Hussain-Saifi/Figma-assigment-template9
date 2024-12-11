@@ -1,6 +1,5 @@
-
 'use client';
-// resopnsive
+
 import { useState } from 'react'
 import Link from "next/link"
 import Image from "next/image"
@@ -25,7 +24,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           href="/"
-          className="text-[20px] sm:text-[24px] leading-[32px] font-bold text-white font-helvetica z-10"
+          className="text-[20px] sm:text-[24px] leading-[32px] font-bold text-white z-10"
         >
           Food<span className="text-[#FF9F0D]">tuck</span>
         </Link>
