@@ -1,3 +1,4 @@
+// src/componets/Footer/SocialIconsFooter.tsx
 import { Facebook, Twitter, Instagram, Youtube, PinIcon } from 'lucide-react'
 import Link from "next/link"
 
@@ -24,3 +25,9 @@ export default function SocialIcons() {
     </div>
   )
 }
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+[
+    { 
+      "id": 1,
+      "name": "Fresh Lime",
+      "category": "Drink",
+      "price": 38.0,
+      "originalPrice": 45.0,
+      "tags": ["Healthy", "Popular"],
+      "image": "https://sanity-nextjs-rouge.vercel.app/food/food-1.png",
+      "description": "Refreshing fresh lime drink made with natural ingredients.",
+      "available": true
+    },
+    { 
+      "id": 2,
+      "name": "Chocolate Muffin",
+      "category": "Dessert",
+      "price": 28.0,
+      "originalPrice": 30.0,
+      "tags": ["Sell", "Sweet"],
+      "image": "https://sanity-nextjs-rouge.vercel.app/food/food-2.png",
+      "description": "Soft and rich chocolate muffin topped with chocolate chips.",
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Burger",
+      "category": "Sandwich",
+      "price": 21.0,
+      "originalPrice": 45.0,
+      "tags": ["Popular"],
+      "image": "https://sanity-nextjs-rouge.vercel.app/food/food-3.png",
+      "description": "Juicy beef burger with fresh lettuce, tomatoes, and cheese.",
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Country Burger",
+      "category": "Sandwich",
+      "price": 45.0,
+      "originalPrice": 50.0,
+      "tags": ["Recommended"],
+      "image": "https://sanity-nextjs-rouge.vercel.app/food/food-4.png",
+      "description": "Classic country-style burger served with fries.",
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Pizza",
+      "category": "Main Course",
+      "price": 43.0,
+      "originalPrice": 50.0,
+      "tags": ["Cheesy", "Vegetarian"],
+      "image": "https://sanity-nextjs-rouge.vercel.app/food/food-5.png",
+      "description": "Delicious vegetarian pizza topped with fresh vegetables and cheese.",
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Chicken Chup",
+      "category": "Appetizer",
+      "price": 12.0,
+      "originalPrice": 15.0,
+      "tags": ["Sell", "Crispy"],
+      "image": "https://sanity-nextjs-rouge.vercel.app/food/food-6.png",
+      "description": "Crispy fried chicken bites served with dipping sauce.",
+      "available": true
+    }
+  ]
+  

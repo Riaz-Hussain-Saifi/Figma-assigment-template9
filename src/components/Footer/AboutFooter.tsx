@@ -1,3 +1,4 @@
+// src/componets/Footer/AboutFooter.tsx
 import { Clock } from 'lucide-react'
 
 export default function AboutUsSection() {
@@ -20,3 +21,6 @@ export default function AboutUsSection() {
     </div>
   )
 }
+
+
+

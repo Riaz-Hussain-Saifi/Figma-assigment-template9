@@ -1,3 +1,4 @@
+// src/components/FAQPages/FAQ.tsx
 "use client"
 import React, { useState } from 'react';
 
@@ -71,3 +72,9 @@ const FAQPage: React.FC = () => {
 };
 
 export default FAQPage;
+
+
+
+
+
+

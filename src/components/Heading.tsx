@@ -1,3 +1,4 @@
+// src/components/Heading.tsx
 import React from 'react'
 
 function Heading(props:{text: string}) {
@@ -12,3 +13,9 @@ function Heading(props:{text: string}) {
 }
 
 export default Heading
+
+
+
+
+
+

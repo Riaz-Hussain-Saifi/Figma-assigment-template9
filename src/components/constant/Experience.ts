@@ -1,4 +1,4 @@
-
+// src/compnents/constant/Experience.ts
 export const ExperienceItem = [
     {
      src:"/cap.png",
@@ -23,3 +23,9 @@ export const ExperienceItem = [
       label: "Happy Customers"
     }
   ]
+
+
+
+
+
+  

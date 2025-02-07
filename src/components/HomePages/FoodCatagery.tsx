@@ -1,3 +1,4 @@
+// src/componets/HomePages/FoodCatagery.tsx
 import { Great_Vibes } from "next/font/google";
 import Image from "next/image";
 
@@ -160,3 +161,12 @@ const FoodCategory = () => {
 };
 
 export default FoodCategory;
+
+
+
+
+
+
+
+
+

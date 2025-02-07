@@ -1,4 +1,4 @@
-
+// src/components/ManuPages/MenuHero.tsx
 import React from 'react'
 import Link from 'next/link'
 
@@ -26,3 +26,11 @@ function Hero() {
 }
 
 export default Hero
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-
+// src/components/ManuPages/StartManu.tsx
 import { menuItems } from '../constant/Manu';
 import { Coffee } from 'lucide-react';
 import Heading from '../Heading';
@@ -43,3 +43,12 @@ export default function StarterMenu() {
     </section>
   );
 }
+
+
+
+
+
+
+
+
+

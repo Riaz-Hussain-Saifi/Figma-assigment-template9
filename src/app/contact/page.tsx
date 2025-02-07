@@ -1,3 +1,4 @@
+// src/app/contact/page.tsx
 import React from 'react'
 import ContactHero from '@/components/ContactPages/ContactHero'
 
@@ -10,3 +11,11 @@ const Contact = () => {
 }
 
 export default Contact
+
+
+
+
+
+
+
+

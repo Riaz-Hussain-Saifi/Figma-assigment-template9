@@ -1,59 +1,80 @@
 import React from "react";
 import Image from "next/image";
+import { client } from "@/sanity/lib/client";
 
-const chefs = [
-  { name: "Tahmina Rumi", role: "Chef", image: "/pic1.png" },
-  { name: "Jorina Begum", role: "Chef", image: "/pic2.png" },
-  { name: "M. Mohammad", role: "Chef", image: "/pic3.png" },
-  { name: "Munna Kathy", role: "Chef", image: "/pic4.png" },
-  { name: "Tahmina Rumi", role: "Cook", image: "/pic5.png" },
-  { name: "Bisnu Devgon", role: "Chef", image: "/pic6.png" },
-  { name: "Motin Molladst", role: "Chef", image: "/pic7.png" },
-  { name: "William Rumi", role: "Chef", image: "/pic8.png" },
-  { name: "Kets William Roy", role: "Chef", image: "/pic9.png" },
-  { name: "Mahmud Kholil", role: "Chef", image: "/pic10.png" },
-  { name: "Ataur Rahman", role: "Chef", image: "/pic11.png" },
-  { name: "Monalisa Holly", role: "Chef", image: "/pic12.png" },
-];
+interface Chef {
+  _id: string;
+  name: string;
+  image: string;
+  role: string;
+  available: boolean;
+  experience: string;
+  specialty: string;
+  description: string;
+}
 
-const ChefGrid = () => {
+export default async function ChefGrid() {
+  const chefs = await client.fetch<Chef[]>(`*[_type == 'chef'][]{
+    "image": image.asset->url,
+    _type,
+    name,
+    available,
+    experience,
+    specialty,
+    description,
+    _id
+  }`);
+
   return (
-    <div className="p-6 mt-20">
-      {" "}
-      {/* Adding mt-20 for margin top */}
-      {/* Grid with responsive columns */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {chefs.map((chef, index) => (
-          <div
-            key={index}
-            className={`relative overflow-hidden rounded-lg shadow-lg bg-white flex flex-col transition-transform transform hover:scale-105 hover:shadow-xl ${
-              index === 6
-                ? "border-4 border-purple-600" // Complete purple border for the 7th box
-                : "border-4 border-transparent hover:border-purple-600" // Hover effect for other boxes
-            }`}
+          <article
+            key={chef._id}
+            className={`group relative bg-white rounded-xl shadow-md overflow-hidden 
+              transition-all duration-300 ease-in-out hover:shadow-xl hover:translate-y-[-4px]
+              ${index === 6 ? "ring-2 ring-purple-600" : "hover:ring-2 hover:ring-purple-600"}`}
           >
-            {/* Chef Image */}
-            <div className="flex-1">
+            {/* Image Container with Fixed Height */}
+            <div className="w-full h-64 sm:h-72 relative">
               <Image
                 src={chef.image}
-                alt={chef.name}
-                width={60}
-                height={40}
-                priority
-                className="w-full h-full object-cover rounded-t-lg"
+                alt={`Chef ${chef.name}`}
+                fill
+                priority={index < 4}
+                className="object-cover w-full h-full"
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                quality={90}
               />
+              {chef.available && (
+                <span className="absolute top-2 right-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full">
+                  Available
+                </span>
+              )}
             </div>
 
-            {/* Static Information Section Below Image */}
-            <div className="p-4 text-center">
-              <h3 className="text-gray-800 font-bold text-lg">{chef.name}</h3>
-              <p className="text-gray-600">{chef.role}</p>
+            {/* Content */}
+            <div className="p-4 space-y-2">
+              <h3 className="font-semibold text-lg text-gray-900 truncate">
+                {chef.name}
+              </h3>
+              {chef.specialty && (
+                <p className="text-sm text-gray-600 truncate">{chef.specialty}</p>
+              )}
+              {chef.experience && (
+                <div className="flex items-center space-x-2 text-sm text-gray-500">
+                  <span>{chef.experience} Experience</span>
+                </div>
+              )}
+              {chef.description && (
+                <p className="text-sm text-gray-600 line-clamp-2">
+                  {chef.description}
+                </p>
+              )}
             </div>
-          </div>
+          </article>
         ))}
       </div>
-    </div>
+    </section>
   );
-};
-
-export default ChefGrid;
+}

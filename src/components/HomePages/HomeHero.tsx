@@ -1,3 +1,4 @@
+// src/componets/HomePages/HomeHero.tsx
 import React from 'react';
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
@@ -81,3 +82,12 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
+
+
+
+
+
+
+

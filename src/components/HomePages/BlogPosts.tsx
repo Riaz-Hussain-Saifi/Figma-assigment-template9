@@ -1,3 +1,4 @@
+// src/componets/HomePages/BlogPosts.tsx
 import React from 'react';
 import { Great_Vibes } from "next/font/google";
 import Image from 'next/image';
@@ -64,3 +65,9 @@ const BlogPost = () => {
 };
 
 export default BlogPost;
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-
+// src/components/ManuPages/Exerperience.tsx
 import { ExperienceItem } from '../constant/Experience'
 import Image from 'next/image'
 import React from 'react'
@@ -38,3 +38,10 @@ export default function Experience() {
     </section>
   )
 }
+
+
+
+
+
+
+

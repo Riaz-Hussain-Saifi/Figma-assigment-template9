@@ -1,4 +1,4 @@
-
+// src/components/ManuPages/MainCourse.tsx
 import { Coffee } from 'lucide-react';
 import Heading from '../Heading';
 import { MainCoursItem } from '../constant/MainCourse';
@@ -43,3 +43,10 @@ export default function MainCours() {
     </section>
   );
 }
+
+
+
+
+
+
+

@@ -1,3 +1,4 @@
+// src/componets/Footer/UseFullLinkFooter.tsx
 import Link from "next/link";
 
 export default function UsefulLinksSection() {
@@ -20,3 +21,8 @@ export default function UsefulLinksSection() {
     </div>
   );
 }
+
+
+
+
+

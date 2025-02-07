@@ -1,4 +1,4 @@
-
+// src/components/BlogPages/BlogHero.tsx
 import React from 'react'
 import Link from 'next/link'
 
@@ -26,3 +26,10 @@ function BlogHero() {
 }
 
 export default BlogHero
+
+
+
+
+
+
+

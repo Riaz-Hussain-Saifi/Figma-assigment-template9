@@ -1,3 +1,4 @@
+// src/componets/HomePages/Homemenu.tsx
 import React from 'react';
 import { Great_Vibes } from 'next/font/google';
 import Image from 'next/image';
@@ -31,6 +32,11 @@ const MenuItem: React.FC<MenuItemProps> = ({ image, date, title, price }) => (
 );
 
 const ChooseFromMenu = () => {
+  const menuItems = [
+    { image: '/homeManu1.png', date: '20 Feb 2022', title: 'Keep Your Business in restaurant', price: '12.50' },
+    { image: '/homeManu2.png', date: '20 Feb 2022', title: 'Keep Your Business in hotel view', price: '14.90' },
+  ];
+
   return (
     <section className="bg-black min-h-screen">
       <div className="container mx-auto px-4 py-16">
@@ -111,3 +117,12 @@ const ChooseFromMenu = () => {
 };
 
 export default ChooseFromMenu;
+
+
+
+
+
+
+
+
+

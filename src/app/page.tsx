@@ -1,3 +1,4 @@
+// src/app/page.tsx
 import React from "react";
 import HomePage from "@/components/HomePages/HomeHero";
 import FoodCategory from "@/components/HomePages/FoodCatagery";

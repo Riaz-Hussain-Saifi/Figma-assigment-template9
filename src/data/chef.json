@@ -1,0 +1,58 @@
+
+[
+    {
+      "name": "Tahmina Rumi",
+      "position": "Head Chef",
+      "experience": 12,
+      "specialty": "Italian Cuisine",
+      "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-1.png",
+      "description": "Expert in crafting authentic Italian dishes and pastries.",
+      "available": true
+    },
+    {
+      "name": "Jorina Begum",
+      "position": "Sous Chef",
+      "experience": 8,
+      "specialty": "Pastry and Desserts",
+      "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-2.png",
+      "description": "Specializes in creative pastries and dessert innovations.",
+      "available": true
+    },
+    {
+      "name": "M. Mohammad",
+      "position": "Grill Master",
+      "experience": 10,
+      "specialty": "Grilled Dishes",
+      "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-3.png",
+      "description": "Renowned for creating perfectly grilled meats and vegetables.",
+      "available": true
+    },
+    {
+      "name": "Munna Kathy",
+      "position": "Culinary Instructor",
+      "experience": 15,
+      "specialty": "Asian Fusion",
+      "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-4.png",
+      "description": "Pioneer in Asian fusion dishes blending traditional flavors with modern techniques.",
+      "available": true
+    },
+    {
+      "name": "Bisnu Devgon",
+      "position": "Executive Chef",
+      "experience": 20,
+      "specialty": "Global Cuisine",
+      "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-5.png",
+      "description": "Expert in international cuisines and menu planning.",
+      "available": true
+    },
+    {
+      "name": "William Rumi",
+      "position": "Chef de Cuisine",
+      "experience": 18,
+      "specialty": "Seafood Specialties",
+      "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-6.png",
+      "description": "Master of crafting exquisite seafood dishes with unique flavors.",
+      "available": true
+    }
+  ]
+  

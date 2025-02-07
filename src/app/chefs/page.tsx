@@ -1,4 +1,4 @@
-
+// src/app/chefs/page.tsx
 import React from 'react'
 import Link from 'next/link'
 import ChefGrid from './ChefGrid';
@@ -31,3 +31,14 @@ function ChefsHero() {
 }
 
 export default ChefsHero
+
+
+
+
+
+
+
+
+
+
+

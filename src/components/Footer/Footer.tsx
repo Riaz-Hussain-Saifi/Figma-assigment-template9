@@ -1,3 +1,4 @@
+// src/componets/Footer/Footer.tsx
 import AboutUsSection from "./AboutFooter";
 import HelpSection from "./HelpFooter";
 import RecentPostsSection from "./RecentPostFooter";
@@ -27,3 +28,9 @@ export default function Footer() {
     </footer>
   )
 }
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-
+// src/app/menu/page.tsx
 import Dessert from "@/components/ManuPages/Dessert";
 import Drink from "@/components/ManuPages/Drinks";
 import Experience from "@/components/ManuPages/Experience";
@@ -20,3 +20,7 @@ export default function Menu() {
 </div>
   );
 }
+
+
+
+

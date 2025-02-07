@@ -1,4 +1,4 @@
-
+// src/components/ManuPages/Dessert.tsx
 import { menuItems } from '../constant/Desserts'
 import { Coffee } from 'lucide-react'
 import Heading from '../Heading'
@@ -45,3 +45,9 @@ export default function Dessert() {
     </section>
   )
 }
+
+
+
+
+
+

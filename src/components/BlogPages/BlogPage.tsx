@@ -1,3 +1,4 @@
+// src/components/BlogPages/BlogPage.tsx
 import React from "react";
 import BlogCard from "./BlogCard";
 import Image from "next/image";
@@ -225,3 +226,11 @@ const HeroPage = () => {
 };
 
 export default HeroPage;
+
+
+
+
+
+
+
+

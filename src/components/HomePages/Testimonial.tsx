@@ -1,3 +1,4 @@
+// src/componets/HomePages/testimonials.tsx
 'use client'
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
@@ -49,7 +50,7 @@ export default function TestimonialsSection() {
     return () => clearInterval(timer)
   }, [isAutoPlaying])
 
-  const handleTestimonialChange = (index: number) => {
+  const handleTestimonialChange = (index: any) => {
     setCurrentTestimonial(index)
     setIsAutoPlaying(false)
   }
@@ -79,7 +80,7 @@ export default function TestimonialsSection() {
           </div>
 
           <div className="text-6xl md:text-7xl text-amber-500 opacity-30 absolute top-8 left-8">
-            &quot;
+            "
           </div>
 
           <AnimatePresence mode="wait">
@@ -147,3 +148,14 @@ export default function TestimonialsSection() {
     </section>
   )
 }
+
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,4 @@
+// src/componets/Footer/HelpFooter.tsx
 import Link from "next/link";
 
 export default function HelpSection() {
@@ -17,3 +18,7 @@ export default function HelpSection() {
       </div>
     )
   }
+
+
+
+

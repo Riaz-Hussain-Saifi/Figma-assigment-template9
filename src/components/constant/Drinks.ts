@@ -1,4 +1,4 @@
-
+// src/compnents/constant/Drinks.ts
 interface MenuItem {
     name: string
     description: string
@@ -34,3 +34,9 @@ interface MenuItem {
       price: 35
     }
   ]
+
+
+
+
+
+

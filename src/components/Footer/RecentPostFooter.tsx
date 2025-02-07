@@ -1,3 +1,4 @@
+// src/componets/Footer/RecentPostFooter.tsx
 import Image from "next/image"
 
 export default function RecentPostsSection() {
@@ -28,3 +29,8 @@ export default function RecentPostsSection() {
       </div>
     )
   }
+
+
+
+
+

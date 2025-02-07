@@ -1,4 +1,4 @@
-
+// src/components/FAQPages/FAQHero.tsx
 import React from 'react'
 import Link from 'next/link'
 
@@ -26,3 +26,11 @@ function FAQHero() {
 }
 
 export default FAQHero;
+
+
+
+
+
+
+
+

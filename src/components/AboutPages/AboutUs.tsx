@@ -1,3 +1,4 @@
+// src/components/Aboutus.tsx
 import React from "react";
 import { Great_Vibes } from "next/font/google";
 import { Inter } from "next/font/google";
@@ -172,3 +173,14 @@ export default function Aboutus() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,4 @@
+// src/components/BlogPages/BlogCart.tsx
 import Image from 'next/image';
 import { FC } from 'react';
 import { Button } from '@/components/ui/button';
@@ -91,3 +92,11 @@ const BlogCard: FC<BlogCardProps> = ({
 };
 
 export default BlogCard;
+
+
+
+
+
+
+
+

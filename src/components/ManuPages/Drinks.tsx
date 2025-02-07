@@ -1,4 +1,4 @@
-
+// src/components/ManuPages/Drinks.tsx
 import { Coffee } from 'lucide-react'
 import Heading from '../Heading'
 import Image from 'next/image'
@@ -46,3 +46,10 @@ export default function Drink() {
     </section>
   )
 }
+
+
+
+
+
+
+

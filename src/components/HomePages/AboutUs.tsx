@@ -1,3 +1,4 @@
+// src/componets/HomePages/AboutUs.tsx
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -85,3 +86,11 @@ const Aboutus = () => {
 };
 
 export default Aboutus;
+
+
+
+
+
+
+
+
